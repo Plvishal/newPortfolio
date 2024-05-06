@@ -22,6 +22,17 @@ function Resume() {
         <hr />
         <HoverEffect items={projects} />
         <h1 className="text-2xl font-bold font-serif bg-clip-text text-transparent bg-gradient-to-b from-slate-200 via-slate-300 to-slate-400">
+          Training
+        </h1>
+        <hr />
+        <div className=" mt-5 mb-10 bg-black p-6 rounded-xl">
+          <p className="text-md font-bold font-sans text-neutral-300 text-justify">
+            I have completed my Offline MERN full Stack Web Development 8th
+            month training from the Qaulity Thought Hyderabad, Telanagana. A
+            skill I have practice master to some live projects
+          </p>
+        </div>
+        <h1 className="text-2xl font-bold font-serif bg-clip-text text-transparent bg-gradient-to-b from-slate-200 via-slate-300 to-slate-400">
           Technicals Skills
         </h1>
         <hr />

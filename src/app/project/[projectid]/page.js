@@ -7,10 +7,10 @@ function ProjectById({ params }) {
   const data = projectData.find((d) => d.id === params.projectid);
 
   return (
-    <div className=" h-full  bg-black/[0.9] rounded-lg p-4 text-white">
+    <div className=" h-full  bg-gradient-to-b from-[#f9f7cd] via-[#eadcef] to-[#f1e9df] rounded-lg p-4 text-black">
       <div className=" flex justify-center items-center  shadow">
         <Image
-          src={data.image}
+          src={data?.image}
           alt="imge"
           width={100}
           height={100}
@@ -19,18 +19,16 @@ function ProjectById({ params }) {
         />
       </div>
       <div className="mt-5">
-        <h1 className="text-xl font-bold font-sans text-neutral-300">
-          {data.title}
-        </h1>
+        <h1 className="text-xl font-bold font-sans text-black">{data.title}</h1>
 
-        <p className="mt-2 text-justify text-sm font-senibold font-sans">
+        <p className="mt-2 text-justify font-bold font-sans text-sm">
           {data?.description}
         </p>
         <div className="grid md:grid-cols-7 grid-cols-3 gap-4 mt-5">
           {data?.technology.map((t) => (
             <div
               key={t}
-              className="bg-red-400 p-1 flex justify-center items-center rounded-xl shadow-2xl text-sm"
+              className="bg-red-400 p-1 flex justify-center items-center rounded-xl shadow-2xl text-sm "
             >
               {t}
             </div>
@@ -53,7 +51,7 @@ function ProjectById({ params }) {
           </Link>
           <Link
             className="bg-blue-600 p-2 px-4 text-sm font-sans font-bold uppercase rounded-lg hover:bg-gradient-to-r from-pink-400 via-purple-400 to-blue-500 hover:text-black transition-all ease-in-out"
-            href={data?.github}
+            href={'/blogs'}
             target="_blank"
           >
             Blog

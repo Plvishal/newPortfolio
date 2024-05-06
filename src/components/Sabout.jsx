@@ -28,21 +28,27 @@ function Sabout() {
             MERN Stack Developer
           </p>
           <div className=" w-[90%] flex justify-between items-center mt-3">
-            <Twitter
-              className="bg-slate-200 p-2 rounded-lg  hover:bg-blue-700 hover:text-white cursor-pointer transition-none ease-in-out"
-              color="secondary"
-              fontSize="large"
-            />
-            <Instagram
-              className="bg-slate-200 p-2 rounded-lg hover:bg-blue-700 hover:text-white cursor-pointer duration-300"
-              sx={{ color: red[900] }}
-              fontSize="large"
-            />
-            <LinkedIn
-              className="bg-slate-200 p-2  rounded-lg  hover:bg-blue-700 hover:text-white cursor-pointer"
-              sx={{ color: blue[900] }}
-              fontSize="large"
-            />
+            <Link href={'#'}>
+              <Twitter
+                className="bg-slate-200 p-2 rounded-lg  hover:bg-blue-700 hover:text-white cursor-pointer transition-none ease-in-out"
+                color="secondary"
+                fontSize="large"
+              />
+            </Link>
+            <Link href={'#'}>
+              <Instagram
+                className="bg-slate-200 p-2 rounded-lg hover:bg-blue-700 hover:text-white cursor-pointer duration-300"
+                sx={{ color: red[900] }}
+                fontSize="large"
+              />
+            </Link>
+            <Link href={'https://linkedin.com/in/vishal959801'} target="_blank">
+              <LinkedIn
+                className="bg-slate-200 p-2  rounded-lg  hover:bg-blue-700 hover:text-white cursor-pointer"
+                sx={{ color: blue[900] }}
+                fontSize="large"
+              />
+            </Link>
           </div>
         </div>
         <div className="w-[90%] m-auto bg-slate-200 p-3 rounded-xl mt-4 flex flex-col gap-2">
@@ -63,7 +69,7 @@ function Sabout() {
             className=" rounded-xl hover:bg-gradient-to-r from-pink-500 to-blue-600"
           >
             <a
-              href={'/vishal.pdf'}
+              href={'/vishalpal.pdf'}
               target="_blank"
               rel="noopener noreferrer"
               download

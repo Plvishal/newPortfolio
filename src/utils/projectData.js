@@ -64,7 +64,7 @@ export const projectData = [
       'bcryptjs',
       'nodemailer',
       'Mongoose',
-      'JWT Authentication',
+      'JWT',
     ],
     image:
       'https://res.cloudinary.com/de8rsflha/image/upload/v1713607115/PortfolioProjects/ecommerce_api/home.png',
@@ -75,25 +75,6 @@ export const projectData = [
   },
   {
     id: '4',
-    title: 'Contact List',
-    description:
-      'Contact list is web application  where user can manage his contact list. User can Add new contact list , Update contact list, Delete contact list and see all the contact list added by the user. We are using Redux and Redux Toolkit for dispatch the data',
-    technology: [
-      'JavaScript',
-      'React.js',
-      'Redux',
-      'Redux Toolkit',
-      'CSS',
-      'JSX',
-    ],
-    image:
-      'https://res.cloudinary.com/de8rsflha/image/upload/v1713615254/PortfolioProjects/contactlist/home.png',
-
-    github: 'https://github.com/Plvishal/Contact-List-using-React',
-    liveLink: 'https://listscontact.netlify.app/',
-  },
-  {
-    id: '5',
     title: 'Contact List',
     description:
       'Contact list is web application  where user can manage his contact list. User can Add new contact list , Update contact list, Delete contact list and see all the contact list added by the user. We are using Redux and Redux Toolkit for dispatch the data',
