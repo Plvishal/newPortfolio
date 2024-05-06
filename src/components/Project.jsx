@@ -16,7 +16,7 @@ function Project() {
       <div className="mt-5 grid md:grid-cols-2 grid-cols-1 gap-5">
         {projectData.map((d) => (
           <div
-            className="flex flex-col border w-[320px] h-[400px] p-2 rounded-xl"
+            className="flex flex-col border md:w-[320px] sm:w-[290px] h-[400px] p-2 rounded-xl"
             key={d.id}
           >
             <Image
@@ -25,7 +25,7 @@ function Project() {
               width={90}
               height={100}
               layout="responsive"
-              className="w-full h-[300px] object-contain rounded-2xl hover:scale-95 cursor-pointer transition-all ease-in-out"
+              className="w-full md:h-[300px] sm:h-[270px] object-contain rounded-2xl hover:scale-95 cursor-pointer transition-all ease-in-out"
             />
             <div className="mt-1 w-full h-full flex flex-col justify-between">
               <div className="mt-1">
