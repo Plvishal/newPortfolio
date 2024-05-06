@@ -28,14 +28,17 @@ function Sabout() {
             MERN Stack Developer
           </p>
           <div className=" w-[90%] flex justify-between items-center mt-3">
-            <Link href={'#'}>
+            <Link href={'https://twitter.com/VishalP63916958'} target="_blank">
               <Twitter
                 className="bg-slate-200 p-2 rounded-lg  hover:bg-blue-700 hover:text-white cursor-pointer transition-none ease-in-out"
                 color="secondary"
                 fontSize="large"
               />
             </Link>
-            <Link href={'#'}>
+            <Link
+              href={'https://www.instagram.com/vp_vishal.official/'}
+              target="_blank"
+            >
               <Instagram
                 className="bg-slate-200 p-2 rounded-lg hover:bg-blue-700 hover:text-white cursor-pointer duration-300"
                 sx={{ color: red[900] }}
