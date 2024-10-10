@@ -29,7 +29,7 @@ export const a1 = [
   {
     icon: <CalendarMonthOutlined />,
     name: 'DOB',
-    value: 'Jan 15, 20001',
+    value: 'Jan 15, 2001',
   },
 ];
 
