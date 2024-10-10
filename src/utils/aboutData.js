@@ -24,7 +24,7 @@ export const a1 = [
   {
     icon: <LocationOnOutlined />,
     name: 'Location',
-    value: 'Jaunpur UP',
+    value: 'Mumbai Maharashtra',
   },
   {
     icon: <CalendarMonthOutlined />,
